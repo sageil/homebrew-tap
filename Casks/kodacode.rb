@@ -5,27 +5,27 @@ cask "kodacode" do
       args: ["-dr", "com.apple.quarantine", "#{staged_path}/kodacode"]
   end
 
-  version "0.10.3"
+  version "0.10.4"
 
   on_macos do
     on_intel do
       url "https://github.com/sageil/kodacode/releases/download/v#{version}/kodacode_#{version}_darwin_amd64.tar.gz"
-      sha256 "eeb8756bdcc1f5de61cb372912005611f741346513487e0e4b0a60e2c03787e1"
+      sha256 "5c37636910a4e5edd02e7e5fbc5b9db6ae33e602ad74df4eef806bcc10307b62"
     end
     on_arm do
       url "https://github.com/sageil/kodacode/releases/download/v#{version}/kodacode_#{version}_darwin_arm64.tar.gz"
-      sha256 "4ded68ee9f0fec8dbb2acfb86d8354af82cd22e8dd0b42a2e096eda14e5cd825"
+      sha256 "93dcb41916b483c0e680037e5151c0c49a8c5f91ea3b5ef79d083e2f477d293f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sageil/kodacode/releases/download/v#{version}/kodacode_#{version}_linux_amd64.tar.gz"
-      sha256 "08c595e8fd63aac7bf9e9b24ad7a081dd8725e846ed3e1d2cd4b871725176f46"
+      sha256 "9101fbe4cd8bd4964b9a0ed109b15c11ff72974022167aa24fe3618c5a41f0f7"
     end
     on_arm do
       url "https://github.com/sageil/kodacode/releases/download/v#{version}/kodacode_#{version}_linux_arm64.tar.gz"
-      sha256 "6e3623ace3c5eb6efdc4c7502e047429d5c8e8feeb9f026634c55405c80e56c9"
+      sha256 "11b1b0b0f60dc0c5ab26267cfc6ef2fc400d6b534b5fa58ab758f3e1b7a5218f"
     end
   end
 
